@@ -1,0 +1,11 @@
+TODO
+====
+2. Pridat parameter na definici gradientu.
+3. Pridat misto 'px' dalsi typy jednotek a osetrit chyby.
+4. Testy.
+5.
+
+Applied
+=======
+1. Prvni verze, ktera zobrazi gradient evaluator
+OK [20210127] skim
