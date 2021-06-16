@@ -1,8 +1,9 @@
 TODO
 ====
 3. Pridat misto 'px' dalsi typy jednotek a osetrit chyby.
-4. Testy.
-5.
+5. Test pro process_css (zavisi na udelani CSS::Struct::Output::Structure)
+6. Pridat dalsi testy pro zmenene parametery.
+7.
 
 Applied
 =======
@@ -10,4 +11,7 @@ Applied
 OK [20210127] skim
 
 2. Pridat parameter na definici gradientu.
+OK [20210616] skim
+
+4. Testy.
 OK [20210616] skim
