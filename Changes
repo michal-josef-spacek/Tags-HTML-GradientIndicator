@@ -1,5 +1,6 @@
 0.03
  - Remove obsolete module use in test.
+ - Update Module::Install to 1.21 version.
 
 0.02 2021-06-16T14:33:51+02:00
  - Add 'css_background_image' constructor parameter.
