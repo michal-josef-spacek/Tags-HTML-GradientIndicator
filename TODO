@@ -3,7 +3,8 @@ TODO
 3. Pridat misto 'px' dalsi typy jednotek a osetrit chyby.
 5. Test pro process_css (zavisi na udelani CSS::Struct::Output::Structure)
 6. Pridat dalsi testy pro zmenene parametery.
-7.
+7. Rewrite to Tags::HTML?
+8.
 
 Applied
 =======
