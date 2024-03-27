@@ -1,3 +1,5 @@
+0.04
+
 0.03 2024-03-27T17:18:08+01:00
  - API Change: Change 'height' and 'width' parameters to CSS unit.
  - Remove obsolete module use in test.
