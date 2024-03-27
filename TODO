@@ -3,7 +3,8 @@ TODO
 5. Test pro process_css (zavisi na udelani CSS::Struct::Output::Structure)
 6. Pridat dalsi testy pro zmenene parametery.
 7. Rewrite to Tags::HTML?
-8.
+8. Visual example to doc.
+9.
 
 Applied
 =======
