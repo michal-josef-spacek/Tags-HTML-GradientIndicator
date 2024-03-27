@@ -207,6 +207,8 @@ Returns undef.
 
 =head1 EXAMPLE1
 
+=for comment filename=gradient_50_percent.pl
+
  use strict;
  use warnings;
 
@@ -247,6 +249,8 @@ Returns undef.
  # </div>
 
 =head1 EXAMPLE2
+
+=for comment filename=gradient_arg_percent.pl
 
  use strict;
  use warnings;

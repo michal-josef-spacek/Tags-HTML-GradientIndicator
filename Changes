@@ -2,6 +2,7 @@
  - API Change: Change 'height' and 'width' parameters to CSS unit.
  - Remove obsolete module use in test.
  - Remove usage of Tags::Output::Raw.
+ - Rename example files to better names.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 
