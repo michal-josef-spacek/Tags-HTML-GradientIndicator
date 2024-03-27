@@ -5,20 +5,20 @@ use CSS::Struct::Output::Raw;
 use English;
 use Error::Pure::Utils qw(clean);
 use Tags::HTML::GradientIndicator;
-use Tags::Output::Raw;
+use Tags::Output::Structure;
 use Test::More 'tests' => 12;
 use Test::NoWarnings;
 
 # Test.
 my $obj = Tags::HTML::GradientIndicator->new(
-	'tags' => Tags::Output::Raw->new,
+	'tags' => Tags::Output::Structure->new,
 );
 isa_ok($obj, 'Tags::HTML::GradientIndicator');
 
 # Test.
 $obj = Tags::HTML::GradientIndicator->new(
 	'css' => CSS::Struct::Output::Raw->new,
-	'tags' => Tags::Output::Raw->new,
+	'tags' => Tags::Output::Structure->new,
 );
 isa_ok($obj, 'Tags::HTML::GradientIndicator');
 
@@ -37,7 +37,7 @@ clean();
 eval {
 	Tags::HTML::GradientIndicator->new(
 		'tags' => Tags::HTML::GradientIndicator->new(
-			'tags' => Tags::Output::Raw->new,
+			'tags' => Tags::Output::Structure->new,
 		),
 	);
 };
@@ -51,8 +51,8 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'css' => Tags::Output::Raw->new,
-		'tags' => Tags::Output::Raw->new,
+		'css' => Tags::Output::Structure->new,
+		'tags' => Tags::Output::Structure->new,
 	);
 };
 is(
@@ -65,7 +65,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'height' => 'foo',
 	);
 };
@@ -79,7 +79,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'height' => '123',
 	);
 };
@@ -93,7 +93,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'height' => '123xx',
 	);
 };
@@ -107,7 +107,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'width' => 'foo',
 	);
 };
@@ -121,7 +121,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'width' => '123',
 	);
 };
@@ -135,7 +135,7 @@ clean();
 # Test.
 eval {
 	Tags::HTML::GradientIndicator->new(
-		'tags' => Tags::Output::Raw->new,
+		'tags' => Tags::Output::Structure->new,
 		'width' => '123xx',
 	);
 };
