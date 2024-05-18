@@ -5,7 +5,7 @@ use warnings;
 
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
-use Mo::utils::CSS qw(check_css_unit);
+use Mo::utils::CSS 0.07 qw(check_css_unit);
 
 our $VERSION = 0.05;
 
