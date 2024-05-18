@@ -188,16 +188,16 @@ Returns undef.
          From Class::Utils::set_params():
                  Unknown parameter '%s'.
          From Mo::utils::CSS::check_css_unit():
-                 Parameter 'height' doesn't contain number.
+                 Parameter 'height' doesn't contain unit number.
                          Value: %s
-                 Parameter 'height' doesn't contain unit.
+                 Parameter 'height' doesn't contain unit name.
                          Value: %s
                  Parameter 'height' contain bad unit.
                          Unit: %s
                          Value: %s
-                 Parameter 'width' doesn't contain number.
+                 Parameter 'width' doesn't contain unit number.
                          Value: %s
-                 Parameter 'width' doesn't contain unit.
+                 Parameter 'width' doesn't contain unit name.
                          Value: %s
                  Parameter 'width' contain bad unit.
                          Unit: %s
