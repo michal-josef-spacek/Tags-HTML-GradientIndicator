@@ -1,6 +1,7 @@
 0.06
  - Add test for process_css() method.
  - Rewrite to use of Tags::HTML.
+ - Rewrite usage of CSS::Struct::Output::Raw to C::S::O::Structure.
 
 0.05 2024-05-18T09:32:59+02:00
  - Add explicit version of Mo::utils::CSS to code.

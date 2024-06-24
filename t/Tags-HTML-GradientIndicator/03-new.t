@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use CSS::Struct::Output::Raw;
+use CSS::Struct::Output::Structure;
 use English;
 use Error::Pure::Utils qw(clean);
 use Tags::HTML::GradientIndicator;
@@ -17,7 +17,7 @@ isa_ok($obj, 'Tags::HTML::GradientIndicator');
 
 # Test.
 $obj = Tags::HTML::GradientIndicator->new(
-	'css' => CSS::Struct::Output::Raw->new,
+	'css' => CSS::Struct::Output::Structure->new,
 	'tags' => Tags::Output::Structure->new,
 );
 isa_ok($obj, 'Tags::HTML::GradientIndicator');

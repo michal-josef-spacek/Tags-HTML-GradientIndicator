@@ -1,6 +1,5 @@
 TODO
 ====
-5. Test pro process_css (zavisi na udelani CSS::Struct::Output::Structure)
 6. Pridat dalsi testy pro zmenene parametery.
 8. Visual example to doc.
 9.
@@ -20,4 +19,7 @@ OK [20210616] skim
 OK [20240327] skim
 
 7. Rewrite to Tags::HTML?
+OK [20240624] skim
+
+5. Test pro process_css (zavisi na udelani CSS::Struct::Output::Structure)
 OK [20240624] skim

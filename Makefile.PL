@@ -25,7 +25,6 @@ requires 'Tags::HTML' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Tags-HTML-GradientIndicator/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Tags-HTML-GradientIndicator';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Tags-HTML-GradientIndicator';
-test_requires 'CSS::Struct::Output::Raw' => 0;
 test_requires 'CSS::Struct::Output::Structure' => 0;
 test_requires 'English' => 0;
 test_requires 'Error::Pure::Utils' => 0;
