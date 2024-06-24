@@ -1,4 +1,4 @@
-0.06
+0.06 2024-06-24T21:04:33+02:00
  - Add test for process_css() method.
  - Rewrite to use of Tags::HTML.
  - Rewrite usage of CSS::Struct::Output::Raw to C::S::O::Structure.
