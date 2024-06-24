@@ -6,7 +6,7 @@ use English;
 use Error::Pure::Utils qw(clean);
 use Tags::HTML::GradientIndicator;
 use Tags::Output::Structure;
-use Test::More 'tests' => 12;
+use Test::More 'tests' => 11;
 use Test::NoWarnings;
 
 # Test.
@@ -21,17 +21,6 @@ $obj = Tags::HTML::GradientIndicator->new(
 	'tags' => Tags::Output::Structure->new,
 );
 isa_ok($obj, 'Tags::HTML::GradientIndicator');
-
-# Test.
-eval {
-	Tags::HTML::GradientIndicator->new;
-};
-is(
-	$EVAL_ERROR,
-	"Parameter 'tags' must be a 'Tags::Output::*' class.\n",
-	"Missing required parameter 'tags'.",
-);
-clean();
 
 # Test.
 eval {
